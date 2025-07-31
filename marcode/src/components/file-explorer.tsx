@@ -160,7 +160,6 @@ export const FileExplorer = ({
                                 lang={getLanguageFromExtension(selectedFile)}
                             />
                         </div>
-                        <p>TODO: Code View</p>
                     </div>
                 ) : (
                     <div className="flex h-full items-center justify-center text-muted-foreground">
